@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kranium</string>
+    <string name="search">Search</string>
+    <string name="no_data">No Data Available</string>
+    <string name="no_searchterm">Search field empty!</string>
+    <string name="hint">Enter a term to use for search</string>
+    <string name="no_wifi">No Internet Connection Available</string>
+</resources>
