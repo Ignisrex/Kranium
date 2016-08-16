@@ -6,10 +6,12 @@ package com.example.android.kranium;
 public class Book {
     private String mTitle;
     private String mAuthor;
+    private String mDescription;
 
-    public Book(String t, String a){
+    public Book(String t, String a,String d){
         mTitle = t;
         mAuthor = a;
+        mDescription=d;
     }
 
     public String getAuthor() {
@@ -18,5 +20,9 @@ public class Book {
 
     public String getTitle() {
         return mTitle;
+    }
+
+    public String getDescription(){
+        return mDescription;
     }
 }

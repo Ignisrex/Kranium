@@ -104,7 +104,8 @@ public final class QueryUtils {
                     author = author +authorArray.getString(n);
 
                 }
-                books.add(new Book(name,author));
+                String desc = volumeInfo.getString("description");
+                books.add(new Book(name,author, desc));
 
             }
 
