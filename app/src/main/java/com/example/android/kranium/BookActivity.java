@@ -71,6 +71,7 @@ public class BookActivity extends AppCompatActivity {
                 authorView.setText(currentBook.getAuthor());
                 TextView descView = (TextView) findViewById(R.id.desc);
                 descView.setText(currentBook.getDescription());
+
                 popupWindow = new PopupWindow(container,600,600,true);
                 popupWindow.showAtLocation(relativeLayout, Gravity.CENTER,700,700);
 
